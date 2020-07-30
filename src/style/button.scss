@@ -1,0 +1,27 @@
+.btn {
+    @include base-btn();
+}
+
+.btn-9000 {
+    cursor: pointer;
+    height: 42px;
+    font-size: 1em;
+    border: 1px solid transparent;
+    transition: all 0.5s ease-in-out;
+    background-color: $teal;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    
+    &:active, &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        background-color: $dark-teal;
+    }
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}

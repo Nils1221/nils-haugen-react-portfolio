@@ -1,0 +1,21 @@
+textarea {
+    border: 2px solid $teal;
+    background-color: transparent;
+    font-size: 1.1em;
+    height: 100px;
+    outline: none;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 2px;
+}
+
+.select-element {
+    border: 1px solid #ccc;
+    font-size: 1.1em;
+    width: 100%;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: transparent;
+    outline: none;
+    font-family: 'Quicksand', sans-serif;
+}

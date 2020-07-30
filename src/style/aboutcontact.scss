@@ -1,0 +1,41 @@
+.ac-wrapper {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: calc(100vh - 84px);
+    font-family: 'Quicksand', sans-serif;
+
+    .left-column-ac {
+        background-size: cover;
+        padding-top: 50px;
+    }
+
+    .right-column-ac {
+        background-color: $offwhite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .right-content {
+            padding: 40px;
+            font-size: 1.3em;   
+        }
+
+        .right-content-f {
+            font-size: 1.4em;
+
+            .para {
+                padding: 20px 0px;
+
+                .icon {
+                    color: $teal;
+                    font-size: 1.4em;
+                    padding-right: 15px;
+                }
+            }
+
+
+        }
+    }
+}

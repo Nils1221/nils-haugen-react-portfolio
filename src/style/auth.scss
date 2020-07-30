@@ -1,0 +1,31 @@
+.auth-page-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: calc(100vh - 84px);
+    font-family: 'Quicksand', sans-serif;
+
+    .left-column {
+        background-size: cover;
+    }
+
+    .right-column {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: $offwhite;
+
+        .para {
+            padding-bottom: 10px;
+        }
+    }
+}
+
+.auth-forms {
+    @include input-element;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+}
